@@ -1,0 +1,3 @@
+Search meal by name --> www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+
+List all meal categories --> www.themealdb.com/api/json/v1/1/categories.php

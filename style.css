@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+:root{
+    --normal : #16E0BD;
+    --light : #7DF2DF;
+    --full : #0D826E;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 400px;
+    background-color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .brand{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 20px;
+}
+.container .home_content{
+    max-width: 600px;
+    text-align: center;
+}
+.container .home_content .content h2 {
+    font-size: 1.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.container .home_content .content p {
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.container .home_content form {
+    margin-top: 20px;
+}
+.container .home_content form #form_control {
+    padding: 12px 10px;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    outline-color: var(--full);
+    background-color: var(--full);
+    color: #fff;
+    padding-left: 20px;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+.fa {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+.form_wrap {
+    background-color: #0D826E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes_section {
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;    
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.recipes_section .recipe {
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px 5px #333;
+}
+.recipes_section .recipe .desc {
+    margin-top: 10px;
+}
+.recipes_section .recipe .desc h2 {
+    color: #ff0000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1rem;
+}
+.recipes_section .recipe .desc #btn {
+    display: block;
+    padding: 8px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.recipes_section .recipe .desc #btn:hover {
+    background-color: #c0c0c0;
+}
+.recipes_section .recipe img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
